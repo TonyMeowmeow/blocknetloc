@@ -1,118 +1,29 @@
-! Title: 国内安卓定位 SDK 屏蔽规则 (AdGuard)
-! Description: 屏蔽高德/百度/腾讯三家常规定位 SDK 的网络定位、数据采集、轨迹回传、鉴权上报请求
-! Source: 定位分析.md（字节码常量池静态提取）
-! Homepage: -
-! Version: 2026-07-13
-! Expires: 1 day
-
+! Title: 国内安卓定位 SDK 上传屏蔽规则 (AdGuard 内容过滤)
+! Description: 屏蔽高德/百度/腾讯定位接口
+! Source: 定位分析.md（2.3/3.3/4.3 URL + 2.4/3.4/4.4 采集证据）
+! Version: 2026-07-13 r3
+! Expires: 3 days
 !===============================================================
-! 一、高德定位 SDK
+! A. 纯定位域
 !===============================================================
-
-!-- 域名级屏蔽（含子域） --
+!---------- 高德 AMap ----------
 ||apilocate.amap.com^
-||aps.amap.com^
-||aps.oversea.amap.com^
-||aps.testing.amap.com^
 ||cgicol.amap.com^
-||restsdk.amap.com^
-||arestapi.amap.com^
-||aloc-gnss-eph.amap.com^
-||aloc-control-plus.amap.com^
-||adiu.amap.com^
-
-!-- 路径级精确屏蔽（域名规则失效时生效，保留同域其他服务可用性） --
-||apilocate.amap.com/mobile/binary^
-||a.apilocate.amap.com/mobile/binary^
-||abroad.apilocate.amap.com/mobile/binary^
-||httpdns.apilocate.amap.com/mobile/binary^
-||aps.testing.amap.com/APS/r^
-||aps.testing.amap.com/collection/collectData^
-||aps.testing.amap.com/dataPipeline/uploadData^
-||cgicol.amap.com/dataPipeline/uploadData^
-||restsdk.amap.com/v3/iasdkauth^
-||restsdk.amap.com/sdk/compliance/params^
-||aloc-gnss-eph.amap.com/ephemeris-hourly^
-||aloc-control-plus.amap.com/aloc/updatable^
-||adiu.amap.com/ws/device/adius^
-
-!===============================================================
-! 二、百度定位 SDK
-!===============================================================
-
-!-- 域名级屏蔽（含子域） --
+||aps.testing.amap.com^
+!---------- 百度 BaiduLBS ----------
 ||loc.map.baidu.com^
 ||ofloc.map.baidu.com^
 ||blg.map.baidu.com^
 ||daup.map.baidu.com^
-||itsdata.map.baidu.com^
 ||client.map.baidu.com^
-||api.map.baidu.com^
-||cnloc.map.baidu.com^
-||aispace.baidu.com^
-||parking.baidu.com^
-||httpdns.baidubce.com^
-
-!-- 路径级精确屏蔽 --
-||loc.map.baidu.com/sdk.php^
-||loc.map.baidu.com/sdk_ep.php^
-||loc.map.baidu.com/gpsz^
-||loc.map.baidu.com/cc.php^
-||loc.map.baidu.com/tcu.php^
-||loc.map.baidu.com/indoorlocbuildinginfo.php^
-||loc.map.baidu.com/cfgs/loc/commcfgs^
-||loc.map.baidu.com/cfgs/indoorloc/indoorroadnet^
-||ofloc.map.baidu.com/offline_loc^
-||ofloc.map.baidu.com/LocBrokerService/do_loc_map_match^
-||ofloc.map.baidu.com/locnd^
-||ofloc.map.baidu.com/locnu^
-||ofloc.map.baidu.com/PlanarStartService/detect_parking_exits^
-||client.map.baidu.com/phpui2^
-||blg.map.baidu.com/cltr/rcvr^
-||blg.map.baidu.com/map_loc_debug/debug_url.json^
-||daup.map.baidu.com/cltr/rcvr^
-||itsdata.map.baidu.com/long-conn-gps/sdk.php^
-||aispace.baidu.com/aispacelbs/receiver/recordlog^
-||aispace.baidu.com/cfgs/indoorloc/indoorbldgrects^
-||api.map.baidu.com/sdkcs/verify^
-||api.map.baidu.com/sdkproxy/v2/lbs_locsdk/geocoding^
-||api.map.baidu.com/sdkproxy/v2/lbs_locsdk/place^
-||parking.baidu.com/parking/api/parkingdata/getcarportlistforlocation^
-
-!===============================================================
-! 三、腾讯定位 SDK
-!===============================================================
-
-!-- 域名级屏蔽（含子域） --
+!---------- 腾讯 TencentLocation ----------
 ||lbs6.map.qq.com^
 ||lbs-trpc.map.qq.com^
 ||nlp.map.qq.com^
 ||cc.map.qq.com^
-||cs.map.qq.com^
-||corssdk.map.qq.com^
-||analytics.map.qq.com^
-||rttgpsreport.map.qq.com^
-||apis.map.qq.com^
-||h5gw.map.qq.com^
-||mt.map.qq.com^
-||lstest.map.qq.com^
-||testdatalbs.sparta.html5.qq.com^
-
-!-- 路径级精确屏蔽 --
-||lbs6.map.qq.com/loc^
-||lbs6.map.qq.com/k^
-||lbs-trpc.map.qq.com/k^
-||nlp.map.qq.com^
-||cc.map.qq.com^
-||mt.map.qq.com/key^
-||cs.map.qq.com/key^
+!===============================================================
+! B. 混合用途域
+!===============================================================
 ||cs.map.qq.com/atta^
 ||cs.map.qq.com/backflow/trajectory^
-||analytics.map.qq.com/tr^
-||rttgpsreport.map.qq.com/report^
-||corssdk.map.qq.com/ephdata^
-||corssdk.map.qq.com/key^
-||apis.map.qq.com/ws/geocoder/v1/^
-||h5gw.map.qq.com/ws/district/v1/search^
-||lstest.map.qq.com/nlpdr^
-||testdatalbs.sparta.html5.qq.com/tr^
+||aispace.baidu.com/aispacelbs/receiver/recordlog^
