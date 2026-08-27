@@ -1,30 +1,12 @@
 ! Title: 国内安卓定位 SDK 上传屏蔽规则 (AdGuard Home DNS)
 ! Description: 屏蔽高德/百度/腾讯定位 SDK
 ! Source: 定位分析.md
-! Version: 2026-07-13
+! Version: 2026-08-28
 ! Expires: 3 days
 
-!===============================================================
-! AMap
-!===============================================================
-||apilocate.amap.com^
-||cgicol.amap.com^
-||aps.testing.amap.com^
-!===============================================================
-! BaiduLBS
-!===============================================================
-||loc.map.baidu.com^
-||ofloc.map.baidu.com^
-||blg.map.baidu.com^
+||aps.amap.com^
 ||daup.map.baidu.com^
-||client.map.baidu.com^
-||aispace.baidu.com^
-
-!===============================================================
-! TencentLocation
-!===============================================================
+||lbs.map.qq.com^
 ||lbs6.map.qq.com^
 ||lbs-trpc.map.qq.com^
-||nlp.map.qq.com^
-||cc.map.qq.com^
-||cs.map.qq.com^
+||lbs-api-cn.heytapmobi.com^
