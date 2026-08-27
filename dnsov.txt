@@ -1,6 +1,6 @@
 !Title: 屏蔽追踪域名
-!Description: 屏蔽广告、追踪、遥测及数据上报相关域名
-!Version: 20260827104900
+!Description: 屏蔽广告、追踪、遥测、安全检测及相关数据上报域名
+!Version: 20260827144300
 !Expires: 1 day
 
 ||virusinfo-sec.heytapmobi.com^
@@ -10,12 +10,14 @@
 ||stg-data.ads.heytapmobi.com^
 ||comsec-intelligence-cn.heytapmobi.com^
 ||mdp-appconf.heytapdownload.com^
+||mdp-appconf-cn.heytapdownload.com^
 ||push-ads-cn.heytapmobi.com^
 ||fupload-cn.cdo.heytapmobi.com^
 ||api-cn.cdo.heytapmobi.com^
 ||api-audit.heytapmobi.com^
 ||httpdns.ocloud.oppomobile.com^
 ||wanyol.com^
+||allawntech.com^
 ||isecure.vivo.com.cn^
 ||antifraudweb.vivo.com.cn^
 ||api.telesafe.qq.com^
@@ -29,4 +31,8 @@
 ||antifraudweb-pre.vivo.com.cn^
 ||isecure-pre.vivo.com.cn^
 ||isecure-test.vivo.com.cn^
+||jovivauc.vivo.com.cn^
 ||gjfzpt.cn^
+||az.appstore.vivo.com.cn^
+||tdc.vivo.com.cn^
+||stsdk.vivo.com.cn^
