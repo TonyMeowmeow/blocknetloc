@@ -1,29 +1,12 @@
-! Title: 国内安卓定位 SDK 上传屏蔽规则 (AdGuard 内容过滤)
-! Description: 屏蔽高德/百度/腾讯定位接口
-! Source: 定位分析.md（2.3/3.3/4.3 URL + 2.4/3.4/4.4 采集证据）
+! Title: 安卓定位屏蔽 (AdGuard)
+! Description: 屏蔽定位接口
+! Source: md
 ! Version: 2026-07-13 r3
 ! Expires: 3 days
-!===============================================================
-! A. 纯定位域
-!===============================================================
-!---------- 高德 AMap ----------
-||apilocate.amap.com^
-||cgicol.amap.com^
-||aps.testing.amap.com^
-!---------- 百度 BaiduLBS ----------
-||loc.map.baidu.com^
-||ofloc.map.baidu.com^
-||blg.map.baidu.com^
+
+||aps.amap.com/APS/r
 ||daup.map.baidu.com^
-||client.map.baidu.com^
-!---------- 腾讯 TencentLocation ----------
-||lbs6.map.qq.com^
-||lbs-trpc.map.qq.com^
-||nlp.map.qq.com^
-||cc.map.qq.com^
-!===============================================================
-! B. 混合用途域
-!===============================================================
-||cs.map.qq.com/atta^
-||cs.map.qq.com/backflow/trajectory^
-||aispace.baidu.com/aispacelbs/receiver/recordlog^
+||lbs.map.qq.com/loc
+||lbs6.map.qq.com/k
+||lbs-trpc.map.qq.com/k
+||lbs-api-cn.heytapmobi.com/detect/getGarageData
