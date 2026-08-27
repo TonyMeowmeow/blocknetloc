@@ -16,3 +16,17 @@
 ||api-audit.heytapmobi.com^
 ||httpdns.ocloud.oppomobile.com^
 ||wanyol.com^
+||isecure.vivo.com.cn^
+||antifraudweb.vivo.com.cn^
+||api.telesafe.qq.com^
+||openapi.shouji.360.cn^
+||lookup.api.bsb.baidu.com^
+||image-check.vivo.com.cn^
+||picanalysis.vivo.com.cn^
+||content-aware.vivo.com.cn^
+||external.appstore.vivo.com.cn^
+||appcontentapi.vivo.com.cn^
+||antifraudweb-pre.vivo.com.cn^
+||isecure-pre.vivo.com.cn^
+||isecure-test.vivo.com.cn^
+||gjfzpt.cn^
