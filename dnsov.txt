@@ -1,6 +1,6 @@
 !Title: 屏蔽追踪域名
 !Description: 屏蔽广告、追踪、遥测、安全检测及相关数据上报域名
-!Version: 20260827144300
+!Version: 20260829153720
 !Expires: 1 day
 
 ||virusinfo-sec.heytapmobi.com^
@@ -36,3 +36,21 @@
 ||az.appstore.vivo.com.cn^
 ||tdc.vivo.com.cn^
 ||stsdk.vivo.com.cn^
+||vhs.wwstat.com^
+||vhs.vivo.com.cn^
+||httpdns.vivo.com.cn^
+||antispam.vivo.com.cn^
+||onelog.vivo.com.cn^
+||f-up.vivo.com.cn^
+||w-up.vivo.com^
+||inputmethod.vivo.com.cn^
+||stinmmtn.vivo.com.cn^
+||identifier-api.vivo.com.cn^
+||hybrid.vivo.com^
+||apph5.vivo.com.cn^
+||apisnd.heytapmobi.com^
+||support.browser.heytapmobi.com^
+||slb-apisnd-in.heytapmobile.com^
+||nearme.com.cn^
+||api.open.oppomobile.com^
+||ads.heytapmobi.com^
