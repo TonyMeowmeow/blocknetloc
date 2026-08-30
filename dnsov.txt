@@ -1,13 +1,11 @@
 !Title: 屏蔽追踪域名
 !Description: 屏蔽广告、追踪、遥测、安全检测及相关数据上报域名
-!Version: 20260829153720
+!Version: 20260830060902
 !Expires: 1 day
 
 ||virusinfo-sec.heytapmobi.com^
 ||security-speed.heytapdownload.com^
-||odin-inference-cn.allawntech.com^
 ||mdp-usertrace-cn.heytapmobi.com^
-||stg-data.ads.heytapmobi.com^
 ||comsec-intelligence-cn.heytapmobi.com^
 ||mdp-appconf.heytapdownload.com^
 ||mdp-appconf-cn.heytapdownload.com^
@@ -54,3 +52,14 @@
 ||nearme.com.cn^
 ||api.open.oppomobile.com^
 ||ads.heytapmobi.com^
+||obus-cn.dc.heytapmobi.com^
+||htms.heytapmobi.com^
+||httpdns.ocloud.heytapmobi.com^
+||ocloud-httpdns-cn.heytapmobi.com^
+||event.dc.heytapmobi.com^
+||event.dc.oppomobile.com^
+||api-cn.store.heytapmobi.com^
+||omes-sec-stdsrp-cn.heytapmobi.com^
+||app-sec-cn.heytapmobi.com^
+||asdt.coloros.com^
+||euler-saas-cn.heytapmobi.com^
