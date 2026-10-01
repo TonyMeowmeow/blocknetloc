@@ -1,6 +1,6 @@
 ! Title: 屏蔽OV
 ! Format: AdGuard专用
-!Version: 20261001
+!Version: 2026100201
 
 ! ---- IP network rules ----
 120.246.123.112$network
@@ -36,6 +36,10 @@
 43.159.234.5$network
 101.33.46.84$network
 162.62.215.101$network
+
+! ---- Whitelist rules ----
+@@||atot-server-cn.allawntech.com^
+@@||ifind.heytapmobi.com^
 
 ! ---- Domain blocking rules ----
 ||comsec-intelligence-cn.heytapmobi.com^
@@ -144,14 +148,8 @@
 ||sentinelapi-test.vivo.com.cn^
 ||cota.vivo.com.cn^
 ||sysupgrade.vivo.com.cn^
-||obus-cn.dc.heytapmobi.com^
-||obus-dct-cn.heytapmobi.com^
-||obus-dctech-cn.heytapmobi.com^
-||obus-dctecht-cn.heytapmobi.com^
-||obus-conft-cn.heytapmobi.com^
-||obus-jssdk-cn.heytapmobi.com^
-||obus-jssdk2-cn.heytapmobi.com^
-||obus-conf-cn.heytapmobi.com^
+||dc.heytapmobi.com^
+||obus-*.heytapmobi.com^
 ||obus-sg.dc.heytapmobile.com^
 ||obus-in.dc.heytapmobile.com^
 ||obus-dc-eu.heytapmobile.com^
@@ -168,13 +166,6 @@
 ||obus-conf-in.heytapmobile.com^
 ||obus-conf-ru.heytapmobile.com^
 ||obus-conf-fr.heytapmobile.com^
-||conf-cn.dc.heytapmobi.com^
-||conf-sg.dc.heytapmobi.com^
-||conf-eu.dc.heytapmobi.com^
-||dragate-cn.dc.heytapmobi.com^
-||dragate-sg.dc.heytapmobi.com^
-||dragate-eu.dc.heytapmobi.com^
-||event.dc.heytapmobi.com^
 ||event.dc.oppomobile.com^
 ||nearby.dc.oppomobile.com^
 ||scene.dc.oppomobile.com^
@@ -200,7 +191,7 @@
 ||activity-cpc.heytapimage.com^
 ||actcpc.heytapimage.com^
 ||g.cn.miaozhen.com^
-||www.miaozhen.com^
+||[www.miaozhen.com^](http://www.miaozhen.com^)
 ||traffic-operation-cn.allawntech.com^
 ||adx.ads.heytapmobi.com^
 ||adx.ads.oppomobile.com^
