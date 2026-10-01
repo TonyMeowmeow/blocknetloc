@@ -1,8 +1,6 @@
 ! Title: 屏蔽OV
 ! Format: AdGuard专用
-! IP network rules: 33
-! Domain rules: 355
-! Total rules: 388
+!Version: 20261001
 
 ! ---- IP network rules ----
 120.246.123.112$network
