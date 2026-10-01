@@ -395,3 +395,4 @@
 ||uc3-client-test.wanyol.com^
 ||uc-oneplusclient-in-test.wanyol.com^
 ||uc-oneplusclient-us-test.wanyol.com^
+||gjfzpt.cn^
