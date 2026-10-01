@@ -38,8 +38,8 @@
 162.62.215.101$network
 
 ! ---- Whitelist rules ----
-@@||atot-server-cn.allawntech.com^
-@@||ifind.heytapmobi.com^
+@@||atot-server-cn.allawntech.com^$important
+@@||ifind.heytapmobi.com^$important
 
 ! ---- Domain blocking rules ----
 ||comsec-intelligence-cn.heytapmobi.com^
