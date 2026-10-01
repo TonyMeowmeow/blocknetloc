@@ -56,8 +56,8 @@
 ||api.open.oppomobile.com^
 ||ads.heytapmobi.com^
 ||*.dc.heytapmobi.com^
-||obus-*.heytapmobi.com^
 ||obus-cn.dc.heytapmobi.com^
+||obus-*.heytapmobi.com^
 ||obus-dc2020-cn.heytapmobi.com^
 ||dc.push.heytapmobi.com^
 ||htms.heytapmobi.com^
