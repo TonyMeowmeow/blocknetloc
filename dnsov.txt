@@ -1,6 +1,6 @@
 !Title: 屏蔽追踪域名
 !Description: 屏蔽广告、追踪、遥测、安全检测及相关数据上报域名
-!Version: 20260830060902
+!Version: 20260930060902
 !Expires: 1 day
 
 ||virusinfo-sec.heytapmobi.com^
